@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Student List</title>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/jquery-ui.min.js"></script>
+<link href="calenderCss.css" rel="stylesheet">
+<link rel="icon" href="icon.png">
+<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Italianno" rel="stylesheet" type='text/css'>
+</head>
+
+
+
+
+<body>
+<div id="container">
+
+<h1>List of Students</h1>
+
+<ol id="list">
+<li>John Scott, 05/05/2015</li>
+<li>Andrew Marshall, 10/04/2016</li>
+<li>Lisa Kudrow, 11/05/2014</li>
+<li>Hank Moody, 16/08/2014</li>
+</ol>
+<div id="clearButtons">
+<input type="button" value="Clear All" id="clearAll"></input> <input type="button" value="Delete Last" id="clearLast"></input>
+</div>
+<div id="new">
+<p><b>Add New Student</b></p>
+<table id="form">
+<tr>
+<td>
+<label for="name">Name:</label></td>
+<td> <input type="text" id="name"></input></td>
+</tr>
+<tr>
+<td>
+<label for="date">Start Date:</label></td><td>   <input type="text" class="datepicker"  id="date" ></input></td>
+</tr>
+<tr>
+<td>
+<label for="endDate">End Date:</label></td><td>    <input type="text" class="datepicker" id="endDate"> </input></td>
+</tr>
+</table>
+<span id="error"></span>
+<br>
+<br>
+
+<input type="button" value="Add Record" id="add"></input>
+</div>
+
+
+
+<script src="myJqueryScript.js"></script>
+
+
+
+
+</div>
+
+
+</body>
+
+
+
+
+
+
+
+
+</html>
